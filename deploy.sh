@@ -9,3 +9,5 @@ pip3 install -r requirements.txt
 
 # Run your Python app (replace 'app.py' with your main script)
 python3 stonksml.py
+
+chmod +x deploy.sh
