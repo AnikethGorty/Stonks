@@ -19,4 +19,5 @@ Today I downloaded a lot of data as a CSV file and saved it in the repo. I will 
 
 The CSV File: I've got intraday trading data with 5 minutes interval of Gamestop Stock from 4 AM 18 Feb 2025 to 17 March 2025 8 PM. Basically a month of data of 5 mins separation. We know the opening price, closing price, high and low per 5 mins - 3818 tuples worth of data. 
 
-# # Making a Machine Learning Model
+## Making a Machine Learning Model
+
