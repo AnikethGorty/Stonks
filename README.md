@@ -20,4 +20,12 @@ Today I downloaded a lot of data as a CSV file and saved it in the repo. I will 
 The CSV File: I've got intraday trading data with 5 minutes interval of Gamestop Stock from 4 AM 18 Feb 2025 to 17 March 2025 8 PM. Basically a month of data of 5 mins separation. We know the opening price, closing price, high and low per 5 mins - 3818 tuples worth of data. 
 
 ## Making a Machine Learning Model
+**AIM**: We want max profit and minimum loss. */Unlike/* the average WallStreetsBets user thanks to whom I even know what a gamestop even is, I want the AI to make rational decisions. 
 
+How profitable? Sky's the limit, but the minimum profit we should be able to make on it should be proportional to the money invested. In India an FD gives you 7.10% for 1.5 years. They've predicted an inflation rate of 4.2%. I wanna keep up with inflation, and that should be enough. 
+
+**How do we get there?**:  
+I see 2 possible ways. #1: Predict how the stock market will do on a particular day and act according to that information.
+#2: Just execute a number of trades and see which ones do well and when. Use this knowledge to create a trading strategy.
+Will way #1 and way #2 both be equally as successful?
+How would I work on this? Backtrading. I need a good backtrading library. Backtrader looking good rn
